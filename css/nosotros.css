@@ -1,0 +1,19 @@
+@media (min-width: 768px){
+    .contenido-nosotros{
+        display: grid;/*para las columnas*/
+        grid-template-columns: repeat(2,1fr);/*se define para el layout*//*repeat (2,50%)*/
+        grid-column-gap: 2rem;/*separacion entre columnas*/
+    }
+}
+
+.site-header{/*solo lo aplica a site-header*/
+    background-color: #333;
+    padding: 1rem 0 3rem 0;
+}
+
+.texto-nosotros blockquote{
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 0;
+    padding: 1rem 0 3rem 0;
+}
